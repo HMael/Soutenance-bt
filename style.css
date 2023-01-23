@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "antipasto";
+    src: url(fonts/Antipasto-Pro-Regular-trial.ttf);
+}
+
+.fonts {
+    font-family: "antipasto" !important;
+}
+
+* {
+    margin: 0;
+    padding: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul a {
+    list-style-type: none;
+    color: black;
+}
+
+body {
+    max-width: 1200px;;
+    height: 100%;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ---------------header---------------- */
+
+
+
+#Titre {
+    border-top: 10px solid;
+}
+
+#inter {
+    font-size: 5rem;
+}
+
+#navBar {
+    border: 4px solid #e2e2e2;
+    background-color: #f1f1f1;
+}
+
+
+/* -----collection------ */
+
+.sec34 {
+    max-width: 1200px;
+}
+
+.card-text2 {
+
+    margin-top: 100px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.card-text {
+
+    margin-top: 50px;
+}
+
+.Ref {
+    margin-top: 50px;
+}
+
+.TitleCard {
+    margin-bottom: 30px;
+}
+
+.tableau1 {
+    height: 220px;
+    width: 300px;
+    background-color: #f1f1f173;
+    border: 4px solid #C1C1C1;
+}
+
+.tableau2 {
+    height: 220px;
+    width: 300px;
+    background-color: #f1f1f173;
+    border-bottom: 4px solid #C1C1C1;
+    border-left: 4px solid #C1C1C1;
+    border-right: 4px solid #C1C1C1;
+}
+
+
+/* ---------footer------ */
+footer  {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-top: 1px solid #C1C1C1;
+}
+
+.GBS {
+    margin-left: 750px;
+} 
